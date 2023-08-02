@@ -14,7 +14,7 @@ p {
 }
 
 .textobox {
-    width: 50%;
+    width: 60%;
     margin: 0 auto; /* Centrar el contenedor en la página */
     text-align: justify;
 }

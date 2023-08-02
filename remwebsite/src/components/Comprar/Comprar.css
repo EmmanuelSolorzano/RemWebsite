@@ -23,12 +23,12 @@ p {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas por fila */
-    grid-gap: 3rem; /* Espacio entre las imágenes */
+    grid-gap: 6rem; /* Espacio entre las imágenes */
   }
   
   /* Estilos para las imágenes dentro de la cuadrícula */
   .grid-container img {
-    width: 9rem; /* Las imágenes ocupan todo el ancho de su celda */
+    width: 12rem; /* Las imágenes ocupan todo el ancho de su celda */
     height: auto; /* La altura se ajusta proporcionalmente */
     transition: opacity 0.3s ease;
 }
@@ -49,8 +49,14 @@ p {
     font-size: 1.5rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 766px) {
     .grid-container {
       grid-template-columns: repeat(2, 1fr); /* 2 columnas por fila */
+      grid-gap: 3rem;
+    }
+
+    .grid-container img {
+        width: 9rem; /* Las imágenes ocupan todo el ancho de su celda */
+        height: auto; /* La altura se ajusta proporcionalmente */
     }
   }

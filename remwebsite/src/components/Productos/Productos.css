@@ -45,3 +45,9 @@
 .datos:hover{
     transform: scale(1.4);
 }
+
+@media screen and (max-width: 768px) {
+    .textobox {
+        width: 80%;
+    }
+  }

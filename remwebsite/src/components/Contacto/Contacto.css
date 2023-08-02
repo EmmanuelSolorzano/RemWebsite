@@ -15,7 +15,7 @@ h2 {
 }
 
 .contactotextobox {
-    width: 50%;
+    width: 60%;
     margin: 0 auto; /* Centrar el contenedor en la página */
     text-align: center;
     display: flex;
@@ -34,11 +34,26 @@ h2 {
 }
 
 .textocontacto {
+    text-decoration: none;
     color: #c18d43;
 }
 
-@media screen and (max-width: 768px) {
+.textocontacto:hover {
+    text-decoration: underline;
+}
+
+.cajaredes {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 660px) {
     .contactotextobox {
         width: 95%;
+    }
+
+    h2 {
+        font-size: 1.3rem !important;
+        font-weight: bold;
     }
   }
