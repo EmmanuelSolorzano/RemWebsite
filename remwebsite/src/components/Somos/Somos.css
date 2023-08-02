@@ -1,0 +1,26 @@
+.titlebox {
+    font-family: 'MiFuente';
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.somosbox {
+    background-color: whitesmoke;
+    padding-bottom: 2rem;
+}
+
+p {
+    font-family: 'MiFuente';
+}
+
+.textobox {
+    width: 50%;
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .textobox {
+        width: 80%;
+    }
+  }

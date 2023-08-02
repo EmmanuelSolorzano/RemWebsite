@@ -1,0 +1,16 @@
+h3 {
+    font-size: 2.8rem;
+}
+
+.negro {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.containertwo {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.1); /* Color de fondo del div */
+    position: relative;
+  }

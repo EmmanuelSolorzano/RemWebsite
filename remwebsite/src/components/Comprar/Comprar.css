@@ -1,0 +1,56 @@
+.titlecomprar {
+    font-family: 'MiFuente';
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 1rem;
+}
+
+.comprarbox {
+    background-color: rgb(231, 231, 231);
+    padding-bottom: 3rem;
+}
+
+p {
+    font-family: 'MiFuente';
+}
+
+.textocomprar {
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    justify-content: center;
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas por fila */
+    grid-gap: 3rem; /* Espacio entre las imágenes */
+  }
+  
+  /* Estilos para las imágenes dentro de la cuadrícula */
+  .grid-container img {
+    width: 9rem; /* Las imágenes ocupan todo el ancho de su celda */
+    height: auto; /* La altura se ajusta proporcionalmente */
+    transition: opacity 0.3s ease;
+}
+
+.grid-container img {
+    opacity: 1;
+  }
+  
+  /* Opacidad reducida al pasar el cursor por encima */
+  .grid-container img:hover {
+    opacity: 0.45;
+  }
+
+
+.info {
+    text-align: center;
+    padding-bottom: 2.5rem;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columnas por fila */
+    }
+  }

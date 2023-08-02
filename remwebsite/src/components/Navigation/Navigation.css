@@ -1,0 +1,39 @@
+.textodorado {
+    color: #c18d43;
+    font-family: 'MiFuente';
+    font-size: 1.5rem;
+}
+
+.logo {
+    height: 5rem;
+    width: 8.8rem;
+}
+
+.space {
+    text-align: justify;
+}
+
+.navbar-space {
+    margin: 0 2rem; /* Espacio horizontal entre los elementos */
+  }
+
+.primary.a {
+    text-decoration: none;
+    color: #c18d43;
+  }
+  
+.primary.a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .textodorado {
+      display: none;
+    }
+    .respnav{
+        margin: 0 auto;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+    }
+  }

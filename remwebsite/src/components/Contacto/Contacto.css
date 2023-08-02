@@ -1,0 +1,44 @@
+.contactotitlebox {
+    font-family: 'MiFuente';
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.contactobox {
+    background-color: rgb(231, 231, 231);
+    padding-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+}
+
+.contactotextobox {
+    width: 50%;
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'MiFuente' !important
+}
+
+.svgcontacto {
+    width: 4rem;
+    height: 4rem;
+    transition: transform 0.3s ease;
+}
+
+.svgcontacto:hover {
+    transform: scale(1.2);
+}
+
+.textocontacto {
+    color: #c18d43;
+}
+
+@media screen and (max-width: 768px) {
+    .contactotextobox {
+        width: 95%;
+    }
+  }

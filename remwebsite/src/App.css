@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'MiFuente';
+  src: url('fonts/hops.ttf') format('truetype');
+}
+
+p {
+  margin: 0 !important;
+}

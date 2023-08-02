@@ -1,0 +1,47 @@
+.mainboxwhite {
+    background-color: whitesmoke;
+    color: black;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    font-family: 'MiFuente';
+}
+
+.titulo {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.texto {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.datos {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.cajadatos {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imagen {
+    height: 16rem;
+    width: 16rem;
+    opacity: 0;
+    transition: opacity 4s ease;
+}
+
+.imagen.active {
+    opacity: 1;
+  }
+
+.datos:hover{
+    transform: scale(1.4);
+}
