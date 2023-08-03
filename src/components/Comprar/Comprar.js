@@ -15,12 +15,12 @@ function Hero() {
             </p>
             <div className='textocomprar'>
                 <div className="grid-container">
-                    <a href='#' className='items'>
+                    
                         <img src={ml} alt="Mercado Libre" />
-                    </a>
-                    <a href='#' className='items'>
+                    
+                    
                         <img src={am} alt="Amazon" />
-                    </a>
+                    
                     <a href='https://www.facebook.com/profile.php?id=100094542872082&mibextid=LQQJ4d' className='items'>
                         <img src={fb} alt="Facebook" />
                     </a>
