@@ -1,3 +1,18 @@
+/* Animación para el "fade in" */
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Clase para aplicar el "fade in" */
+.App {
+  animation: fadeInAnimation 1.5s ease-in;
+}
+
 @font-face {
   font-family: 'MiFuente';
   src: url('../public/fonts/hops.ttf') format('truetype');
