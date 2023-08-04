@@ -1,8 +1,14 @@
 @font-face {
   font-family: 'MiFuente';
-  src: url('fonts/hops.ttf') format('truetype');
+  src: url('../public/fonts/hops.ttf') format('truetype');
 }
 
 p {
   margin: 0 !important;
+}
+
+@media screen and (max-width: 660px) {
+  h1{
+    font-size: 1.9rem !important;
+  }
 }

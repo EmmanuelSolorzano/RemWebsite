@@ -10,7 +10,9 @@ function Carrusel() {
       name={item.name}
       url={item.imageurl}
       price={item.price}
-      description={item.description}
+      ingredients={item.ingredients}
+      size={item.size}
+      flavour={item.flavour}
     />
   ));
 

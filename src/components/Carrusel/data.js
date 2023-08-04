@@ -1,6 +1,3 @@
-import rem1 from './img/rem1.png';
-import rem2 from './img/rem2.png';
-import rem3 from './img/rem3.png';
 
 export const responsive = {
     superLargeDesktop: {
@@ -27,33 +24,38 @@ export const responsive = {
     {
       id: 1,
       imageurl:
-        rem1,
+        "img/rem1.png",
       name: "REM ISOLATE",
-      price: "$720.00",
-      description: "Some text about the product..",
+      price: "$890.00",
+      ingredients: "Proteína aislada, Leche descremada, Goma xantana, Vitamina C, Vitamina D, L-Glutamina, Sucralosa, Cúrcuma, Stevia, Probióticos.",
+      flavour:"Vainilla Francesa",
+      size:"2 Kg.",
     },
     {
       id: 2,
       imageurl:
-        rem2,
+        "img/rem2.png",
       name: "REM CLASSIC",
-      price: "$490.00",
-      description: "Some text about the product..",
+      price: "$690.00",
+      ingredients: "Whey protein, Cacao orgánico, Cacao, Goma xantana, Vitamina C, Vitamina D, Zinc, Jengibre, L-Carnitina, Cúrcuma, Stevia, Probióticos.",
+      flavour:"Chocolate Irlandés",
+      size:"2 Kg.",
     },
     {
       id: 3,
       imageurl:
         "https://cdn.shopify.com/s/files/1/0463/5803/6638/products/creatina-creapure--bores.png?v=1676190499",
       name: "REMNEWED",
-      price: "$400.00",
-      description: "Some text about the product..",
+      price: "$650.00",
+      ingredients: "Colágeno hidrolizado, Ácido hialurónico, Biotina, Vitamina C, Creatina, Vitamina E, BCCA's, Resveratrol.",
+      flavour:"Natural",
+      size:"500 g.",
     },
     {
       id: 4,
       imageurl:
-        rem3,
+        "img/rem3.png",
       name: "GORRA REM",
       price: "$420.00",
-      description: "Some text about the product..",
     },
   ];

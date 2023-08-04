@@ -59,4 +59,7 @@ p {
         width: 9rem; /* Las imágenes ocupan todo el ancho de su celda */
         height: auto; /* La altura se ajusta proporcionalmente */
     }
+    .info{
+      font-size: 1.3rem;
+    }
   }

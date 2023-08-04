@@ -7,8 +7,18 @@ function Somos() {
             CONÓCENOS
         </h1>
         <div className='textobox'>
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        <p className='descripcion'>
+        Somos una empresa mexicana dedicada a la venta de suplementos.
+        <br />
+        Esta empresa nació desde la observación hacia muchas personas que tenían la dificultad de adquirir suplementación a causa de los elevados precios de las compañías. De esta manera nace REM, una empresa dedicada a la venta de suplementos deportivos de la más alta calidad y con un precio accesible para todos. 
+        <br />
+        <b>Misión</b>
+        <br />
+        Nuestra misión es que todos puedan adquirir suplementación de excelente calidad a un precio accesible. 
+        <br />
+        <b>Visión</b>
+        <br />
+        Nuestra visión es que cada atleta y persona conozca a REM Sport Supplements, logrando así ser la marca más solicitada en el mercado.
         </p>
         </div>
     </div>

@@ -1,6 +1,7 @@
 .titlebox {
     font-family: 'MiFuente';
     padding: 2rem 0;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
@@ -17,6 +18,14 @@ p {
     width: 60%;
     margin: 0 auto; /* Centrar el contenedor en la página */
     text-align: justify;
+}
+
+.descripcion {
+    text-align: justify;
+}
+
+b{
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width: 768px) {

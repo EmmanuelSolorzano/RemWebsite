@@ -1,8 +1,5 @@
 import React from 'react';
 import './Comprar.css';
-import ml from './img/mercadolibre.png';
-import am from './img/amazon.png';
-import fb from './img/facebook.png';
 
 function Hero() {
     return (
@@ -16,13 +13,13 @@ function Hero() {
             <div className='textocomprar'>
                 <div className="grid-container">
                     
-                        <img src={ml} alt="Mercado Libre" />
+                        <img src="img/mercadolibre.png" alt="Mercado Libre" loading="lazy"/>
                     
                     
-                        <img src={am} alt="Amazon" />
+                        <img src="img/amazon.png" alt="Amazon" loading="lazy"/>
                     
                     <a href='https://www.facebook.com/profile.php?id=100094542872082&mibextid=LQQJ4d' className='items'>
-                        <img src={fb} alt="Facebook" />
+                        <img src="img/facebook.png" alt="Facebook" loading="lazy"/>
                     </a>
                 </div>
             </div>

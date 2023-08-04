@@ -10,7 +10,7 @@
 }
 
 h2 {
-    font-size: 1.5rem !important;
+    font-size: 1.7rem !important;
     font-weight: bold;
 }
 
@@ -47,13 +47,26 @@ h2 {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 660px) {
+.infocontact{
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 834px) {
     .contactotextobox {
         width: 95%;
+        flex-direction: column;
+        gap: 2.9rem;
+    }
+    .cajaredes {
+        display: flex;
+        justify-content:space-evenly;
+        padding-top: 0.6rem;
     }
 
-    h2 {
-        font-size: 1.3rem !important;
-        font-weight: bold;
+    .hcontact {
+        font-size: 1.55rem !important;
+    }
+    .infocontact{
+        font-size: 1.2rem;
     }
   }

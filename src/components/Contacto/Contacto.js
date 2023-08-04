@@ -9,7 +9,7 @@ function Contacto() {
         <div className='contactotextobox'>
             <div>
                 <div>
-                    <h2>
+                    <h2 className='hcontact'>
                         Redes sociales
                     </h2>
                 </div>
@@ -29,12 +29,12 @@ function Contacto() {
                 </div>
             </div>
             <div>
-                <h2>
+                <h2 className='hcontact'>
                     Contacto
                 </h2>
-                <p>
+                <p className='infocontact'>
                     Teléfono:<br/> <a className='textocontacto' href='tel:3111345235'>311-134-5235</a><br/>
-                    E-mail:<br/> <a className='textocontacto' href='mailto:ventas@remsport.mx'>ventas@remsport.mx</a>
+                    E-mail:<br/> <a className='textocontacto' href='mailto:ventas@remsport.com.mx'>ventas@remsport.com.mx</a>
                 </p>
             </div>
         </div>
