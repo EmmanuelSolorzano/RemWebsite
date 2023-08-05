@@ -43,7 +43,7 @@ class Comments extends Component {
    * @param {Object} comment
    */
   addComment(comment) {
-    fetch("http://127.0.0.1:8000/api/comments/")
+    fetch("remsport.com.mx:8000/api/comments/")
       .then(res => res.json())
       .then(res => {
         this.setState({
