@@ -6,6 +6,7 @@ import Productos from '../Productos/Productos';
 import Footer from '../Footer/Footer';
 import Somos from '../Somos/Somos';
 import Contacto from '../Contacto/Contacto';
+import Comments from '../Comments/Comments';
 
 
 function Hero() {
@@ -17,6 +18,7 @@ function Hero() {
             <Comprar />
             <Somos />
             <Contacto />
+            <Comments />
         </main>
         
         <footer>
