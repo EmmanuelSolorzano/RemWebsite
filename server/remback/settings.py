@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-33e-v$+g8dylk1*_e4_(fiu7@ai!at!fdmu1307ksav@(pg7jt'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -43,11 +43,11 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://146.190.142.189", "https://remsport.com.mx", 
+    "https://146.190.142.189", "https://remsport.com.mx", "*", 
 ]
 
 ALLOWED_HOSTS = [
-    "146.190.142.189", ".remsport.com.mx",
+    "146.190.142.189", ".remsport.com.mx", "*",
 ]
 
 
