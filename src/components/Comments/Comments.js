@@ -23,7 +23,7 @@ class Comments extends Component {
     this.setState({ loading: true });
 
     // get all the comments
-    fetch("http://127.0.0.1:8000/api/comments/")
+    fetch("/django/api/comments/")
       .then(res => res.json())
       .then(res => {
         this.setState({
@@ -43,7 +43,7 @@ class Comments extends Component {
    * @param {Object} comment
    */
   addComment(comment) {
-    fetch("remsport.com.mx:8000/api/comments/")
+    fetch("/django/api/comments/")
       .then(res => res.json())
       .then(res => {
         this.setState({

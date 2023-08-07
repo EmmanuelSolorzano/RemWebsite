@@ -43,11 +43,11 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000", "https://146.190.142.189", "https://remsport.com.mx", "https://localhost:3000",
+    "https://146.190.142.189", "https://remsport.com.mx", 
 ]
 
 ALLOWED_HOSTS = [
-    "remsport.com.mx",
+    "146.190.142.189", ".remsport.com.mx",
 ]
 
 

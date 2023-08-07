@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls')),
-    path('api/', include('comments.api.urls', namespace='api-comments')),
+    path('django/admin/', admin.site.urls),
+    path('django/api-auth/', include('rest_framework.urls')),
+    path('django/api/', include('comments.api.urls', namespace='api-comments')),
 ]

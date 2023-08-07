@@ -51,7 +51,7 @@ export default class CommentForm extends Component {
 
     // persist the comments on server
     let { comment } = this.state;
-    fetch("remsport.com.mx:8000/api/comments/", {
+    fetch("/django/api/comments/", {
   method: "POST",
   headers: {
     'Content-Type': 'application/json',
