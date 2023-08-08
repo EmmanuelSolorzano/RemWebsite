@@ -65,7 +65,7 @@ class Comments extends Component {
             <h6>¡Déjanos un comentario!</h6>
             <CommentForm addComment={this.addComment} />
           </div>
-          <div className="col-8  pt-3 bg-white">
+          <div className="col-8  pt-3 bg-white scroll">
             <CommentList
               loading={this.state.loading}
               comments={this.state.comments}

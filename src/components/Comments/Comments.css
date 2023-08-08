@@ -10,3 +10,8 @@
 .commsec-intro {
     font-size: large;
 }
+
+.scroll {
+    height:20rem;
+    overflow: scroll;
+}

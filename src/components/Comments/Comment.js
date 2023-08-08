@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Comment(props) {
-  const { nombre, fecha_creacion, hora_creacion, descripcion } = props.comment;
+  const { nombre, fecha_creacion, descripcion } = props.comment;
 
   return (
     <div className="media mb-3">
@@ -9,12 +9,12 @@ export default function Comment(props) {
         className="mr-3 bg-light rounded"
         width="48"
         height="48"
-        src={`https://api.adorable.io/avatars/256/${nombre.toLowerCase()}.png`}
+        src={`https://ui-avatars.com/api/?name=${nombre}&background=C18d43&size=128`}
         alt={nombre}
       />
 
       <div className="media-body p-2 shadow-sm rounded bg-light border">
-        <small className="float-right text-muted">{fecha_creacion} - {hora_creacion.substring(0,5)}</small>
+        <small className="float-right text-muted">{fecha_creacion}</small>
         <h6 className="mt-0 mb-1 text-muted">{nombre}</h6>
         {descripcion}
       </div>
