@@ -44,12 +44,12 @@ export const responsive = {
     {
       id: 3,
       imageurl:
-        "https://cdn.shopify.com/s/files/1/0463/5803/6638/products/creatina-creapure--bores.png?v=1676190499",
-      name: "REMNEWED",
-      price: "$650.00",
-      ingredients: "Colágeno hidrolizado, Ácido hialurónico, Biotina, Vitamina C, Creatina, Vitamina E, BCCA's, Resveratrol.",
+        "img/rem4.png",
+      name: "Creatina",
+      price: "$590.00",
+      ingredients: "Monohidrato de Creatina Micronizada.",
       flavour:"Natural",
-      size:"500 g.",
+      size:"400 g.",
     },
     {
       id: 4,
